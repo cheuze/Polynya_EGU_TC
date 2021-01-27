@@ -11,6 +11,14 @@ To reproduce section 3.1 (reference polynya dates from NSIDC):
 
 ------
 
+To reproduce section 3.2 (criterion determination by comparing years with / without polynya):
+
+1- apply cloud filter, produce human-readable dates, and put all APP images into one matrix per band using prepare_APP.m;
+
+2- the geographical and temporal tests of section 3.2 are all in find_criterion_APP.m.
+
+------
+
 To reproduce appendix A (cloud mask validation), use in this order:
 
 1- readmodis.py then cloud_from_MYD35.m on already downloaded MYD35_L2 data;
