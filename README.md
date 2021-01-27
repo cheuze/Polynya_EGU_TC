@@ -6,6 +6,7 @@ Codes to reproduce the results of Heuzé and Lemos (subm 2020), under revision f
 To reproduce section 3.1 (reference polynya dates from NSIDC):
 
 1- produce your own longitude and latitude grid adapted to your NSIDC data, or use lat_nsidc.dat and lon_nsidc.dat;
+
 2- use get_polynya_dates.m on already downloaded NSIDC sea ice concentration data.
 
 ------
